@@ -74,7 +74,6 @@ LOCAL_SRC_FILES:= 		\
 	GLES_CM/gl.cpp.arm 	\
 #
 
-LOCAL_CLANG := false
 LOCAL_SHARED_LIBRARIES += libcutils liblog libEGL
 LOCAL_MODULE:= libGLESv1_CM
 
@@ -102,7 +101,6 @@ LOCAL_SRC_FILES:= 		\
 	GLES2/gl2.cpp.arm 	\
 #
 
-LOCAL_CLANG := false
 LOCAL_SHARED_LIBRARIES += libcutils libutils liblog libEGL
 LOCAL_MODULE:= libGLESv2
 
