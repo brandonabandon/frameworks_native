@@ -23,6 +23,8 @@ cc_library_shared {
     cppflags: [
         "-Weverything",
         "-Werror",
+        "-Wno-zero-as-null-pointer-constant",
+        "-Wno-tautological-type-limit-compare",
 
         // The static constructors and destructors in this library have not been noted to
         // introduce significant overheads
