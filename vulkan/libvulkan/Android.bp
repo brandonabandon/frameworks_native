@@ -50,7 +50,8 @@ cc_library_shared {
         "-Wno-float-equal",
         "-Wno-global-constructors",
         "-Wno-zero-length-array",
-    ],
+        "-Wno-zero-as-null-pointer-constant",
+        ],
 
     srcs: [
         "api.cpp",
